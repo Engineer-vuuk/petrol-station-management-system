@@ -1,0 +1,16 @@
+.compact-table {
+  border-collapse: collapse;
+  font-size: 0.85rem; /* smaller font size */
+}
+
+.compact-table th,
+.compact-table td {
+  padding: -200px -200px; /* reduce padding to reduce row height */
+  border: 3px solid #ccc;
+  vertical-align: middle;
+}
+
+.compact-table th {
+  background-color: #f0f0f0;
+  font-weight: 600;
+}
